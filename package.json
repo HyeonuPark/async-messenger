@@ -1,0 +1,22 @@
+{
+  "name": "async-messenger",
+  "version": "1.0.0",
+  "description": "Asynchronous messenger layer based on Promise/A+",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyeonuPark/async-messenger.git"
+  },
+  "keywords": [
+    "messenger"
+  ],
+  "author": "HyeonuPark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HyeonuPark/async-messenger/issues"
+  },
+  "homepage": "https://github.com/HyeonuPark/async-messenger#readme"
+}
