@@ -2,7 +2,7 @@
   "name": "async-messenger",
   "version": "1.0.0",
   "description": "Asynchronous messenger layer based on Promise/A+",
-  "main": "build/index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "gulp"
   },
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/HyeonuPark/async-messenger/issues"
   },
-  "homepage": "https://github.com/HyeonuPark/async-messenger#readme"
+  "homepage": "https://github.com/HyeonuPark/async-messenger#readme",
+  "babel": {
+    "presets": ["hyeonu"]
+  },
+  "devDependencies": {
+    "babel-preset-hyeonu": "^0.1.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0"
+  }
 }
